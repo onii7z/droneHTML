@@ -1,0 +1,35 @@
+// Téléphone
+@media (max-width: 800px) {
+	*,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: (auto, auto, auto);
+        grid-column-gap: rem(30);
+        padding-left: rem(30);
+        padding-right: rem(30);
+    }
+}
+//Tablette
+@media (min-width: 801px) {
+	*,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: rem(30);
+        padding-left: rem(30);
+        padding-right: rem(30);
+    }
+}
+
