@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+</head>
+<body>
+    <header>
+        <div id="nav" class="nav">
+            <a id="clostBtn" href="#" class="nav__close"></a>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#">Profil</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Documents</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Carte</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Documentation</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">S'abonner</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Déconnexion</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <a href="#" id="openBtn">
+            <span class="nav__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
+    </header>
+    <main class="container">
+        <form action="">
+            <div class="connexion">
+                <div class="connexion__mail mail">
+                    <img class="mail__icon" src="src/icons/icon_mail.svg" alt="icône mail">
+                    <input class="connexion__input" type="text" placeholder="adresse e-mail">
+                </div>
+                <div class="connexion__password password">
+                    <img class="password__icon" src="src/icons/icon_password.svg" alt="icône mot de passe">
+                    <input class="connexion__input" type="password" placeholder="mot de passe">
+                </div>
+                <a class="connexion__oubli" href="#">Mot de passe oublié ?</a>
+                <div class="connexion__checkbox checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <label class="checkbox__label" for="checkbox">Rester connecté</label>
+                </div>
+                <input class="connexion__submit" type="submit" value="Se connecter">
+                <p class="connexion__ou">OU</p>
+                <div class="connexion__sso">
+                    <a href="#"><img src="src/icons/icon_google.svg" alt="icône google"></a>
+                    <a href="#"><img src="src/icons/icon_facebook.svg" alt="icône facebook"></a>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
