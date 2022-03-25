@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
+    <title>Inscription</title>
 </head>
 <body>
     <header>
@@ -31,26 +31,18 @@
     </header>
     <main class="container">
         <form action="">
-            <div class="connexion">
-                <div class="connexion__mail mail">
-                    <img class="mail__icon" src="src/icons/icon_mail.svg" alt="icône mail">
-                    <input class="input" type="text" placeholder="adresse e-mail" required>
+            <div class="inscription">
+                <input class="input" type="text" placeholder="Pseudo *" size="20" required>
+                <input class="input" type="email" placeholder="Adresse e-mail *" required>
+                <input class="input" type="text" placeholder="Prenom *" required>
+                <input class="input" type="text" placeholder="Nom *" required>
+                <input class="input" type="password" placeholder="Mot de passe *" required>
+                <input class="input" type="password" placeholder="Confirmation *" required>
+                <div class="incscription__checkbox">
+                    <input class="checkbox" type="checkbox" id="inscr__checkbox">
+                    <label for="inscr__checbox">J'accepte les conditions d'utilisation</label>
                 </div>
-                <div class="connexion__password password">
-                    <img class="password__icon" src="src/icons/icon_password.svg" alt="icône mot de passe">
-                    <input class="input" type="password" placeholder="mot de passe" required>
-                </div>
-                <a class="connexion__oubli" href="#">Mot de passe oublié ?</a>
-                <div class="connexion__checkbox">
-                    <input type="checkbox" id="cnx__checkbox">
-                    <label class="checkbox" for="cnx__checkbox">Rester connecté</label>
-                </div>
-                <input class="connexion__submit" type="submit" value="Se connecter">
-                <p class="connexion__ou">OU</p>
-                <div class="connexion__sso">
-                    <a href="#"><img src="src/icons/icon_google.svg" alt="icône google"></a>
-                    <a href="#"><img src="src/icons/icon_facebook.svg" alt="icône facebook"></a>
-                </div>
+                <input class="inscription__submit" type="submit" value="S'inscrire">
             </div>
         </form>
     </main>
