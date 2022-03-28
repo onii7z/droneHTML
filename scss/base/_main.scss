@@ -13,6 +13,10 @@
         display: flex;
         flex-direction: column;
     }
+    a {
+        text-decoration: none;
+        color: $flame;
+    }
 }
 //Tablette
 @media (min-width: 801px) {
