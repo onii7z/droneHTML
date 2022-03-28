@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
+    <link rel="stylesheet" href="CSS/style.min.css">
 </head>
 <body>
     <header>
@@ -36,17 +37,17 @@
         <form action="#">
             <div class="connexion">
                 <div class="connexion__mail mail">
-                    <img class="mail__icon" src="src/icons/icon_mail.svg" alt="icône mail">
-                    <input class="input" type="text" placeholder="adresse e-mail" required>
+                    <input class="input input--email" type="text" placeholder="adresse e-mail" required>
                 </div>
                 <div class="connexion__password password">
-                    <img class="password__icon" src="src/icons/icon_password.svg" alt="icône mot de passe">
-                    <input class="input" type="password" placeholder="mot de passe" required>
+                    <input class="input input--password" type="password" placeholder="mot de passe" required>
                 </div>
                 <a class="connexion__oubli" href="#">Mot de passe oublié ?</a>
                 <div class="connexion__checkbox">
-                    <input type="checkbox" id="cnx__checkbox">
-                    <label class="checkbox" for="cnx__checkbox">Rester connecté</label>
+                    <label class="control control-checkbox">
+                        Rester connecté
+                        <input type="checkbox">
+                    </label>
                 </div>
                 <input class="lg_button" type="submit" value="Se connecter">
                 <p class="connexion__ou">OU</p>

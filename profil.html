@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil</title>
+    <link rel="stylesheet" href="CSS/style.min.css">
 </head>
 <body>
     <header>
         <div id="nav" class="nav">
-            <a id="closeBtn" href="#" class="nav__close"></a>
+            <a id="closeBtn" href="#" class="nav__close"><img src="src/icons/icon_cross.svg" alt="icône fermer"></a>
             <ul class="nav__list">
                 <li class="nav__item"><a class="nav__link" href="profil.html">Profil</a></li>
                 <li class="nav__item"><a class="nav__link" href="documents.html">Documents</a></li>
@@ -22,7 +23,7 @@
         </div>
 
         <a href="#" id="openBtn">
-            <div>
+            <div class="nav__container">
                 <span class="nav__icon">
                     <span></span>
                     <span></span>
@@ -33,8 +34,12 @@
     </header>
     <main class="container">
         <div class="upper-buttons">
-            <a href="#" class="link_button">Statistiques</a>
-            <a href="#" class="link_button">Preparer un vol</a>
+            <form action="stats.html">
+                <input class="sm_button" type="submit" value="Statistiques">
+            </form>
+            <form action="preparation.html">
+                <input class="sm_button" type="submit" value="Preparer un vol">
+            </form>
         </div>
         <article class="drones">
             <h2 class="drones__title">Drones</h2>
@@ -84,7 +89,9 @@
             </div>
         </article>
 
-        <a href="#">Modifier le profil</a>
+        <form action="modif_profil.html">
+            <input class="sm_button" type="submit" value="Modifier le profil">
+        </form>
     </main>
     <footer class="footer">
         <div class="footer__border footer__border--bord">
