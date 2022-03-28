@@ -37,7 +37,12 @@
         position: absolute;
         top: 30px;
         right: 30px;
-        font-size: 36px;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 30px;
+        right: 30px;
     }
 
     &__icon span {
