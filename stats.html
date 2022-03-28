@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preparation</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div id="nav" class="nav">
+            <a id="clostBtn" href="#" class="nav__close"></a>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="profil.html">Profil</a></li>
+                <li class="nav__item"><a class="nav__link" href="documents.html">Documents</a></li>
+                <li class="nav__item"><a class="nav__link" href="map.html">Carte</a></li>
+                <li class="nav__item"><a class="nav__link" href="liens.html">Documentation</a></li>
+                <li class="nav__item"><a class="nav__link" href="abo.html">S'abonner</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Déconnexion</a></li>
+                <li class="nav__item"><a class="nav__link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <a href="#" id="openBtn">
+            <span class="nav__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
+    </header>
+    <main class="container">
+        <select class="select" name="drones" id="drones-select">
+            <option value="Drone">Drone</option>
+            <option value="Mavic3">Mavic 3</option>
+            <option value="Air2S">Air 2S</option>
+            <option value="EvoIIDual640T">EVO II Dual 640T</option>
+        </select>
+
+        <div class="vol">
+            <h1 class="vol__title">Temps de vol</h1>
+            <div class="stats">
+                <div class="stats__item item">
+                    <p class="item__name">S1</p>
+                    <p class="item__hours">495h</p>
+                </div>
+                <div class="stats__item item">
+                    <p class="item__name">S2</p>
+                    <p class="item__hours">739h</p>
+                </div>
+                <div class="stats__item item">
+                    <p class="item__name">S3</p>
+                    <p class="item__hours">251h</p>
+                </div>
+                <div class="stats__item item">
+                    <p class="item__name">Nuit</p>
+                    <p class="item__hours">0h</p>
+                </div>
+                <div class="stats__item--total item">
+                    <p class="item__name">Total</p>
+                    <p class="item__hours">1485h</p>
+                </div>
+            </div>
+
+            <h2>Il vous reste 75h avant de faire la révision de ce drone</h2>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__border footer__border--bord"><a href="documents.html"><img class="footer__icon" src="src/icons/footer/icon_folder.svg" alt="image d'un dossier"></a></div>
+        <div class="footer__border footer__border--bord"><a href="map.html"><img class="footer__icon" src="src/icons/footer/icon_map.svg" alt="image d'un carte"></a></div>
+        <div class="footer__border"><a href="meteo.html"><img class="footer__icon" src="src/icons/footer/icon_weather.svg" alt="image d'un nuage"></a></div>
+    </footer>
+</body>
+</html>
