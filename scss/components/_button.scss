@@ -30,6 +30,9 @@
     width: rem(318);
     height: rem(50);
     text-align: center;
+    &--var {
+        width: rem(300);
+    }
 }
 
 .sm_button {
@@ -61,25 +64,3 @@
     padding: 0 rem(10);
 }
 
-.contact {
-    text-align: center;
-    &__form {
-        text-align: center;
-    }
-    &__titre {
-        margin-top: rem(50);
-        margin-bottom: rem(30);
-        color: $magnolia;
-    }
-    &__desc {
-        color: $magnolia;
-    }
-}
-.sm_button {
-    background-color: $flame;
-    color: $magnolia;
-}
-.lg_button {
-    background-color: $flame;
-    color: $magnolia;
-}
