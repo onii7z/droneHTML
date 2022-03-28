@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Documents</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
@@ -13,10 +13,10 @@
             <a id="clostBtn" href="#" class="nav__close"></a>
             <ul class="nav__list">
                 <li class="nav__item"><a class="nav__link" href="profil.html">Profil</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">Documents</a></li>
+                <li class="nav__item"><a class="nav__link" href="documents.html">Documents</a></li>
                 <li class="nav__item"><a class="nav__link" href="map.html">Carte</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">Documentation</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">S'abonner</a></li>
+                <li class="nav__item"><a class="nav__link" href="liens.html">Documentation</a></li>
+                <li class="nav__item"><a class="nav__link" href="abo.html">S'abonner</a></li>
                 <li class="nav__item"><a class="nav__link" href="#">Déconnexion</a></li>
                 <li class="nav__item"><a class="nav__link" href="contact.html">Contact</a></li>
             </ul>
@@ -31,7 +31,55 @@
         </a>
     </header>
     <main class="container">
-        TESTTESS
+        <div class="upper-buttons">
+            <a class="link_button" href="new_document.html">Ajouter document</a>
+            <select name="docs" id="docs-select">
+                <option value="type document">Type document</option>
+                <option value="Carnet de vol S1">Carnet de vol S1</option>
+                <option value="Carnet de vol S2">Carnet de vol S2</option>
+                <option value="Carnet de vol S3">Carnet de vol S3</option>
+                <option value="Carnet de vol Nuit">Carnet de vol Nuit</option>
+                <option value="Carnet d'entretien">Carnet d'entretien</option>
+            </select>
+        </div>
+
+        <hr>
+
+        <article class="document">
+            <h2 class="document__title">Mission Cléopâtre</h2>
+            <h3 class="document__date">15/02/2022</h3>
+            <a class="link_button" href="#">Voir le pdf</a>
+        </article>
+
+        <article class="document">
+            <h2 class="document__title">Mission Impossible</h2>
+            <h3 class="document__date">18/01/2022</h3>
+            <a class="link_button" href="#">Voir le pdf</a>
+        </article>
+
+        <article class="document">
+            <h2 class="document__title">Mission 1</h2>
+            <h3 class="document__date">05/02/2022</h3>
+            <a class="link_button" href="#">Voir le pdf</a>
+        </article>
+
+        <article class="document">
+            <h2 class="document__title">Mission Possible</h2>
+            <h3 class="document__date">24/11/2021</h3>
+            <a class="link_button" href="#">Voir le pdf</a>
+        </article>
+
+        <article class="document">
+            <h2 class="document__title">Mission Test</h2>
+            <h3 class="document__date">28/032022</h3>
+            <a class="link_button" href="#">Voir le pdf</a>
+        </article>
+        
+        <article class="document">
+            <h2 class="document__title">Mission Macron</h2>
+            <h3 class="document__date">18/01/2022</h3>
+            <a class="link_button" href="#">Voir le pdf</a>
+        </article>
     </main>
     <footer class="footer">
         <div class="footer__border footer__border--bord"><a href="documents.html"><img class="footer__icon" src="src/icons/footer/icon_folder.svg" alt="image d'un dossier"></a></div>
