@@ -1,13 +1,66 @@
 .input {
     background-color: $violet;
-    border-color: $flame;
+    border: 1px $flame solid;
     border-radius: rem(3);
     margin-top: rem(10);
     margin-bottom: rem(10);
+    padding-left: rem(20);
     height: rem(50);
     width: rem(300);
-    
+    color: $magnolia;
 }
+
+.input--email {
+    background: url(../../src/icons/icon_mail.svg) no-repeat scroll rem(7) rem(7);
+    padding-left: rem(50);
+}
+
+.input--password {
+    background: url(../../src/icons/icon_password.svg) no-repeat rem(7) rem(6);
+    padding-left: rem(50);
+}
+
+.lg_button {
+    all: unset;
+    text-transform: uppercase;
+    color: $magnolia;
+    font-size: rem(16);
+    background-color: $flame;
+    border-radius: rem(10);
+    width: rem(318);
+    height: rem(50);
+    text-align: center;
+}
+
+.sm_button {
+    all: unset;
+    text-transform: uppercase;
+    color: $magnolia;
+    font-size: rem(10);
+    background-color: $flame;
+    border-radius: rem(5);
+    width: rem(140);
+    height: rem(38);
+    text-align: center;
+}
+
+.upper-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select {
+    text-transform: uppercase;
+    font-size: rem(10);
+    color: $magnolia;
+    background-color: $flame;
+    text-align: left;
+    border-radius: rem(5);
+    border: 0;
+    width: rem(138);
+    padding: 0 rem(10);
+}
+
 .contact {
     &__form {
         //test 
