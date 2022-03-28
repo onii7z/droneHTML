@@ -21,8 +21,8 @@ $text-sm: rem(11);
     font-family: ModernSans;
     src: url("../../src/fonts/ModernSans-Light.otf");
 }
-$font-titre: 'Odibee Sans', cursive;
-$font-text: 'ModernSans';
+$font-titre: 'ModernSans';
+$font-text: 'ModernSans', light;
 
 /* Font variantes */
 $letter-spacing: 0.05em;
