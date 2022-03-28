@@ -43,13 +43,13 @@
         position: absolute;
         top: rem(30);
         right: rem(30);
-    }
 
-    &__icon span {
-        display: block;
-        width: rem(35);
-        height: rem(5);
-        background-color: $flame;
-        margin: rem(6) 0;
+        & span {
+            display: block;
+            width: rem(35);
+            height: rem(5);
+            background-color: $flame;
+            margin: rem(6) 0;
+        }
     }
 }
