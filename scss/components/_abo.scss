@@ -16,5 +16,14 @@
     &__choix {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        margin-top: rem(50);
+        margin-bottom: rem(30);
+        text-align: center;
+    }
+    &__mois {
+        
+        --var {
+            border: 1px solid $flame;
+        }
     }
 }
