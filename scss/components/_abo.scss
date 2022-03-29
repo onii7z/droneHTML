@@ -1,0 +1,11 @@
+.abo {
+    &__titre {
+        font-size: rem(35);
+        text-transform: uppercase;
+    }
+    &__desc {
+        &--color {
+            color: $flame;
+        }
+    }
+}
