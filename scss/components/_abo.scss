@@ -1,11 +1,20 @@
 .abo {
     &__titre {
-        font-size: rem(35);
+        font-size: rem(28);
         text-transform: uppercase;
+        text-align: center;
+        margin-bottom: rem(25);
     }
     &__desc {
+        text-align: center;
+        font-size: rem(16);
+        font-family: $font-text;
         &--color {
             color: $flame;
         }
+    }
+    &__choix {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
