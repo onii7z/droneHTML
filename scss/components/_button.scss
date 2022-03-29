@@ -1,7 +1,10 @@
 .input {
     background-color: $violet;
+    border: 1px solid $flame;
     border-color: $flame;
     border-radius: rem(3);
+    color: $magnolia;
+    font-family: $font-text;
     margin-top: rem(10);
     margin-bottom: rem(10);
     padding-left: rem(20);
@@ -27,6 +30,7 @@
     font-size: rem(16);
     background-color: $flame;
     border-radius: rem(10);
+    font-family: $font-titre;
     width: rem(318);
     height: rem(50);
     text-align: center;

@@ -18,11 +18,12 @@ $text-sm: rem(11);
 /* Font-family styles */
 
 @font-face {
-    font-family: ModernSans;
+    font-family: Modern Sans;
     src: url("../../src/fonts/ModernSans-Light.otf");
 }
-$font-titre: 'ModernSans';
-$font-text: 'ModernSans', light;
+
+$font-titre: 'Modern Sans';
+$font-text: 'Modern Sans', light;
 
 /* Font variantes */
 $letter-spacing: 0.05em;
