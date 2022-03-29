@@ -53,6 +53,11 @@
 .upper-buttons {
     display: flex;
     justify-content: space-between;
+
+    &--stats {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .select {
@@ -63,7 +68,8 @@
     text-align: left;
     border-radius: rem(5);
     border: 0;
-    width: rem(138);
+    min-width: rem(138);
+    min-height: rem(38);
     padding: 0 rem(10);
 }
 
