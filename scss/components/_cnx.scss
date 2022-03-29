@@ -3,7 +3,52 @@
 
     &__oubli {
         color: $magnolia;
-        display: block;
         text-align: right;
+        font-size: rem(14);
+        grid-column-start: 2;
+
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
+
+    &__checkbox {
+        margin-top: rem(5);
+    }
+
+    &__button {
+        margin-top: rem(60);
+    }
+
+    &__ou {
+        margin-top: rem(30);
+        margin-left: rem(18);
+        text-align: center;
+
+        &__container {
+            display: flex;
+        }
+    }
+
+    &__sso {
+        margin-top: rem(30);
+
+        &__google {
+            margin-left: rem(33);
+        }
+
+        &__facebook {
+            margin-left: rem(120);
+        }
+    }
+}
+
+.left_line {
+    margin-top: rem(25)
+}
+
+.right_line {
+    margin-top: rem(25);
+    margin-left: rem(17);
 }
