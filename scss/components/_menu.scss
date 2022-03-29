@@ -12,6 +12,7 @@
     &__link {
         text-decoration: none;
         font-size: rem(36);
+        font-family: $font-titre;
         color: $violet;
         display: block;
         transition: 0.3s;
@@ -51,5 +52,10 @@
             background-color: $flame;
             margin: rem(6) 0;
         }
+    }
+
+    &__back {
+        margin-top: rem(25);
+        margin-left: rem(30);
     }
 }
