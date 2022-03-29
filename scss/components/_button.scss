@@ -31,12 +31,9 @@
     background-color: $flame;
     border-radius: rem(10);
     font-family: $font-titre;
-    width: rem(318);
+    width: rem(300);
     height: rem(50);
     text-align: center;
-    &--var {
-        width: rem(300);
-    }
 }
 
 .sm_button {

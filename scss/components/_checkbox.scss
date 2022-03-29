@@ -10,7 +10,7 @@
 
 .b-contain span {
 	line-height: 1.54;
-	font-size: 1rem;
+	font-size: rem(14);
 	font-family: inherit;
 }
 
@@ -26,8 +26,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 1.25rem;
-	width: 1.25rem;
+	height: rem(18);
+	width: rem(18);
 	background: rgba(28, 23, 56, 1);
 	transition: background 250ms;
 	border: 1px solid rgba(233, 78, 27, 1);

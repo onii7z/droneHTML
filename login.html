@@ -42,7 +42,9 @@
                 <div class="connexion__password password">
                     <input class="input input--password" type="password" placeholder="mot de passe" required>
                 </div>
-                <a class="connexion__oubli" href="#">Mot de passe oublié ?</a>
+                <div class="connexion__oubli__container">
+                    <a class="connexion__oubli" href="#">Mot de passe oublié ?</a>
+                </div>
                 <div class="connexion__checkbox">
                     <label class="b-contain">
                         <span>Rester connecté</span>
@@ -50,11 +52,15 @@
                         <div class="b-input"></div>
                     </label>
                 </div>
-                <input class="lg_button" type="submit" value="Se connecter">
-                <p class="connexion__ou">OU</p>
+                <input class="lg_button connexion__button" type="submit" value="Se connecter">
+                <div class="connexion__ou__container">
+                    <img class="left_line" src="src/icons/left_line.svg" alt="ligne gauche">
+                    <p class="connexion__ou">OU</p>
+                    <img class="right_line" src="src/icons/right_line.svg" alt="ligne droite">
+                </div>
                 <div class="connexion__sso">
-                    <a href="#"><img src="src/icons/icon_google.svg" alt="icône google"></a>
-                    <a href="#"><img src="src/icons/icon_facebook.svg" alt="icône facebook"></a>
+                    <a class="connexion__sso__google" href="#"><img src="src/icons/icon_google.svg" alt="icône google"></a>
+                    <a class="connexion__sso__facebook" href="#"><img src="src/icons/icon_facebook.svg" alt="icône facebook"></a>
                 </div>
             </div>
         </form>
