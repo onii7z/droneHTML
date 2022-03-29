@@ -26,17 +26,22 @@
         margin-top: rem(50);
         margin-bottom: rem(30);
         text-align: center;
+        
     }
     &__mois {
+        padding-top: rem(10);
+        padding-bottom: rem(10);
         height: rem(80);
         &--var {
             border: 1px solid $flame;
             border-radius: rem(5);
-
         }
     }
     &__nbmois {
         font-size: rem(20);
         font-weight: bold;
     }
+}
+.surbutton {
+    text-align: center;
 }
