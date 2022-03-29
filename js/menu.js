@@ -2,8 +2,6 @@ var nav = document.getElementById("nav");
 var openBtn = document.getElementById("openBtn");
 var closeBtn = document.getElementById("closeBtn");
 
-console.log(openBtn);
-
 openBtn.onclick = openNav;
 closeBtn.onclick = closeNav;
 
