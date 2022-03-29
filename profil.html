@@ -46,11 +46,13 @@
             <div class="drones__container drone">
                 <button class="drone__item">
                     Mavic 3
-                    <img class="drone__item__img" src="src/icons/icon_trashcan.svg" alt="icône poubelle">
-                    <img class="drone__item__img" src="src/icons/icon_edit.svg" alt="icône d'édition">
+                    <div class="drone__img">
+                        <img class="drone__item__img" src="src/icons/icon_trashcan.svg" alt="icône poubelle">
+                        <img class="drone__item__img" src="src/icons/icon_edit.svg" alt="icône d'édition">
+                    </div>
                 </button>
                 <a href="#" class="drones__ajout">
-                    <img src="src/icons/icon_add.svg" alt="icône ajout">
+                    <img class="drones__ajout__img" src="src/icons/icon_add.svg" alt="icône ajout">
                 </a>
             </div>
         </article>
@@ -89,9 +91,11 @@
             </div>
         </article>
 
-        <form action="modif_profil.html">
-            <input class="sm_button" type="submit" value="Modifier le profil">
-        </form>
+        <div class="profil__button__container">
+            <form action="modif_profil.html">
+                <input class="sm_button profil__button" type="submit" value="Modifier le profil">
+            </form>
+        </div>
     </main>
     <footer class="footer">
         <div class="footer__border footer__border--bord">
