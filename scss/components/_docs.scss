@@ -1,0 +1,38 @@
+hr {
+    border: rem(0.1) solid $magnolia;
+    margin-top: rem(47);
+}
+
+.document {
+    border: 1px solid $flame;
+    border-radius: rem(5);
+    min-width: rem(140);
+    min-height: rem(140);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__title {
+        font-size: rem(14);
+    }
+
+    &__date {
+        font-size: rem(14);
+    }
+
+    &__container {
+        margin-top: rem(45);
+        display: flex;
+        flex-wrap: wrap;
+        gap: rem(22);
+    }
+
+    &__button {
+        text-transform: uppercase;
+        font-family: $font-titre;
+        font-size: rem(10);
+        min-width: rem(120);
+        min-height: rem(25);
+    }
+}
