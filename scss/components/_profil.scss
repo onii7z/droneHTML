@@ -60,9 +60,31 @@
 
 .profil__button {
     margin: rem(60) 0;
-    
+
     &__container {
         display: flex;
         justify-content: center;
+    }
+}
+
+// SCSS de la modification du profil
+
+.password {
+    &__button {
+        min-width: rem(180);
+        margin-top: rem(50);
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.modif {
+    &__container {
+        display: flex;
+        justify-content: center;
+        margin-top: rem(55);
     }
 }
