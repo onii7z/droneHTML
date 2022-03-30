@@ -5,11 +5,10 @@
         color: $magnolia;
         text-align: right;
         font-size: rem(14);
-        grid-column-start: 2;
 
         &__container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            display: flex;
+            justify-content: flex-end;
         }
     }
 
@@ -23,8 +22,9 @@
 
     &__ou {
         margin-top: rem(30);
-        margin-left: rem(18);
         text-align: center;
+        min-width: 100%;
+        display: inline;
 
         &__container {
             display: flex;
@@ -32,23 +32,8 @@
     }
 
     &__sso {
-        margin-top: rem(30);
-
-        &__google {
-            margin-left: rem(33);
-        }
-
-        &__facebook {
-            margin-left: rem(120);
-        }
+        margin: rem(30) rem(30) 0;
+        display: flex;
+        justify-content: space-between;
     }
-}
-
-.left_line {
-    margin-top: rem(25)
-}
-
-.right_line {
-    margin-top: rem(25);
-    margin-left: rem(17);
 }

@@ -10,7 +10,7 @@
     margin-bottom: rem(15);
     padding-left: rem(20);
     height: rem(50);
-    width: rem(300);
+    min-width: 100%;
     
 }
 
@@ -32,7 +32,7 @@
     background-color: $flame;
     border-radius: rem(10);
     font-family: $font-titre;
-    width: rem(300);
+    min-width: 100%;
     height: rem(50);
     text-align: center;
 }
