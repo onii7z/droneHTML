@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    right: rem(-500);
+    right: -100%;
     background-color: $magnolia;
     padding-top: rem(60);
     transition: right 0.5s ease;
@@ -57,5 +57,13 @@
     &__back {
         margin-top: rem(25);
         margin-left: rem(30);
+    }
+}
+
+@media (min-width: 801px) {
+    .nav {
+        &__link {
+            font-size: rem(55);
+        }
     }
 }

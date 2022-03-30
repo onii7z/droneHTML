@@ -19,3 +19,13 @@
         margin-top: rem(45);
     }
 }
+
+@media (min-width: 801px) {
+    .container--reset {
+        padding: rem(210) rem(190) 0 rem(200);
+    } 
+
+    .reinit {
+        padding: 0 rem(50);
+    }
+}
