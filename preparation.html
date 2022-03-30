@@ -33,73 +33,94 @@
         </a>
     </header>
     <main class="container">
-        <form>
-            <select name="" id="">
+        <form class="prepa">
+            <select class="prepa__liste" name="" id="">
                 <option value="S1">S1</option>
                 <option value="S2">S2</option>
                 <option value="S3">S3</option>
                 <option value="Nuit">Nuit</option>
             </select>
-            <select name="" id="">
+            <select class="prepa__liste prepa__liste--var" name="" id="">
                 <option value="mavick1">mavick1</option>
                 <option value="mavick2">mavick2</option>
                 <option value="mavick3">mavick3</option>
             </select>
-            <div style="background-color: white; display: flex;">
-                <p>Autorisation</p>
-                <img src="src/icons/icon_add.svg" alt="">
+            <div class="prepa__card">
+                <p class="prepa__desc">Autorisation</p>
+                <img class="prepa__img" src="src/icons/icon_add.svg" alt="">
             </div>
-            <div style="background-color: white; display: flex;">
-                <p>Ajouter une autre autorisation</p>
+            <div class="prepa__card prepa__card--var">
+                <p class="prepa__desc">Ajouter une autre autorisation</p>
             </div>
             <input class="input" type="text" placeholder="Nom de la mission">
-            <p>Collecter les attestations des personnes se trouvant à l’intérieur de la zone 
-                (si besoin)</p>
-            <input class="checkbox" type="checkbox">
-            <p>Analyse de l'environnement</p>
-            <input class="checkbox" type="checkbox">
-            <p>Installation du périmètre de sécurité</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification météo et sens du vent</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification visuelle du drone (hélices, fixation, rotation moteur)</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification du niveau de chargement des batteries du drone</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification du niveau de chargement de la radiocommande</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification du niveau de chargement des batteries des moniteurs vidéo</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification du niveau de chargement des batteries de l’appareil embarqué</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification du la compatibilité de la charge utile sélectionnée</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification de la fixation de l’appareil à la nacelle</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification de la qualité du signal du contrôle sur l’écran de la radiocommande</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification de l’affichage de la télémétrie</p>
-            <input class="checkbox" type="checkbox">
-            <p>Paramétrage des limitations hauteur et distance maximums</p>
-            <input class="checkbox" type="checkbox">
-            <p>Paramétrage du FailSafe</p>
-            <input class="checkbox" type="checkbox">
-            <p>Si > 2kg : Vérification du coupe cirtcuit</p>
-            <input class="checkbox" type="checkbox">
-            <p>Décollage, puis stationnaire de 15 secondes pour vérifier le bon fonctionnement du drone</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification des commandes de vol</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérification des paramètres d’enregistrement</p>
-            <input class="checkbox" type="checkbox">
-            <h3>Niveau S1</h3>
-            <p>Analyser la demande du client</p>
-            <input class="checkbox" type="checkbox">
-            <p>Le client a-t-il autorité sur le site ?</p>
-            <input class="checkbox" type="checkbox">
-            <p>Vérifier la zone de vol sur la carte OASI</p>
-            <input class="checkbox" type="checkbox">
-            <button class="sm_button" type="submit">Commencer le vol</button>
+            <label class="b-contain">
+                <p class="prepa__text">Collecter les attestations des personnes se trouvant à l’intérieur de la zone 
+                    (si besoin)</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Analyse de l'environnement</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Installation du périmètre de sécurité</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Vérification météo et sens du vent</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Vérification visuelle du drone (hélices, fixation, rotation moteur)</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Vérification météo et sens du vent</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Vérification visuelle du drone (hélices, fixation, rotation moteur)</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Paramétrage du FailSafe</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Vérification du niveau de chargement des batteries du drone</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Vérification du la compatibilité de la charge utile sélectionnée</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <h3 class="prepa__titre">Niveau S1</h3>
+            <label class="b-contain">
+                <p class="prepa__text">Analyser la demande du client</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Le client a-t-il autorité sur le site ?</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <label class="b-contain">
+                <p class="prepa__text">Vérifier la zone de vol sur la carte OASI</p>
+                <input type="checkbox">
+                <div class="b-input"></div>
+            </label>
+            <div class="surbutton"><button class="sm_button" type="submit">Commencer le vol</button></div>
         </form>
     </main>
     <footer class="footer">
