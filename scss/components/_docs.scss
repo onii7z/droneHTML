@@ -42,3 +42,16 @@ hr {
         min-width: 100%;
     }
 }
+
+@media (min-width: 801px) {
+    .container--docs {
+        padding: rem(125) rem(100) 0 rem(100);
+    }
+
+    .document {
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}

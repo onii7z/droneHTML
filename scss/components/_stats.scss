@@ -46,3 +46,17 @@
     font-size: rem(16);
     text-align: center;
 }
+
+@media (min-width: 801px) {
+    .upper-buttons--stats {
+        justify-content: start;
+    }
+
+    .container--stats {
+        padding: rem(300) rem(125) 0 rem(125);
+    }
+
+    .stats__item {
+        min-width: 48%;
+    }
+}

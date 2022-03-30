@@ -100,6 +100,10 @@
 }
 
 @media (min-width: 801px) {
+    .pf-modif {
+        margin-top: rem(150);
+    }
+
     .container--profil {
         padding: rem(125) rem(200) 0 rem(200);
     }
