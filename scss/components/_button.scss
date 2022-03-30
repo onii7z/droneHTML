@@ -45,7 +45,7 @@
     font-family: $font-titre;
     background-color: $flame;
     border-radius: rem(5);
-    width: rem(140);
+    min-width: rem(120);
     height: rem(38);
     text-align: center;
 }
