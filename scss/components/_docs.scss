@@ -35,4 +35,8 @@ hr {
         min-width: rem(120);
         min-height: rem(25);
     }
+
+    &__item {
+        min-width: 100%;
+    }
 }

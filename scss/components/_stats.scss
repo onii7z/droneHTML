@@ -25,12 +25,13 @@
         color: $violet;
         border-radius: rem(5);
         min-height: rem(40);
-        min-width: rem(121);
+        min-width: 46%;
         padding: 0 rem(10);
     }
 
     &__frow {
         display: flex;
+        min-width: 100%;
         gap: rem(20);
     }
 
