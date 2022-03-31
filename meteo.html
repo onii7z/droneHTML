@@ -32,42 +32,54 @@
             </div>
         </a>
     </header>
-    <main class="container">
-        <input type="text" placeholder="Saisir une ville"><img src="src/icons/fe_search.svg" alt="" style="height: 24px; width: 24px;"></main>
-        <input type="checkbox"><p>Météo sur 7 jours</p>
-        <h4>Audincourt, Aujourd'hui</h4>
-        <div style="background-color: white;">
-            <p>Temps</p>
-            <img src="src/icons/gg_sun.svg" alt="Image du soleil">
-            <p>Ensoileilé</p>
-        </div>
-        <div style="background-color: white;">
-            <p>Température</p>
-            <img src="src/icons/fluent_temperature-20-filled.svg" alt="Image du soleil">
-            <p>15°C</p>
-        </div>
-        <div style="background-color: white;">
-            <p>Vent</p>
-            <img src="src/icons/bx_wind.svg" alt="Image du soleil">
-            <p>7,6KM</p>
-        </div>
-        <div style="background-color: white;">
-            <p>Pression atmosphérique</p>
-            <img src="src/icons/wi_barometer.svg" alt="Image du soleil">
-            <p>1250hpa</p>
-        </div>
-        <div style="background-color: white;">
-            <p>Humidité</p>
-            <img src="src/icons/akar-icons_water.svg" alt="Image du soleil">
-            <p>48%</p>
-        </div>
-        <div style="background-color: white;">
-            <p>Lever du soleil</p>
-            <img src="src/icons/mi_sunrise.svg" alt="Image du soleil">
-            <p>5H37</p>
-            <p>Coucher du soleil</p>
-            <img src="src/icons/mi_sunset.svg" alt="Image du soleil">
-            <p>17H50</p>
+    <main class="container meteo">
+        <input class="input" type="text" placeholder="Saisir une ville">
+        <!-- <img src="src/icons/fe_search.svg" alt="" style="height: 24px; width: 24px;"> -->
+        <label class="b-contain">
+            <p class="prepa__text">Météo sur 7 jours</p>
+            <input type="checkbox">
+            <div class="b-input"></div>
+        </label>
+        <h4 class="meteo__titre">Audincourt, Aujourd'hui</h4>
+        
+        <div class="meteo__content">
+            <div class="meteo__card carte">
+                <p class="carte__desc">Temps</p>
+                <img class="carte__icon" src="src/icons/gg_sun.svg" alt="Image du soleil">
+                <p class="carte__desc">Ensoileilé</p>
+            </div>
+            <div class="meteo__card carte">
+                <p class="carte__desc">Température</p>
+                <img class="carte__icon" src="src/icons/fluent_temperature-20-filled.svg" alt="Image du soleil">
+                <p class="carte__desc">15°C</p>
+            </div>
+            <div class="meteo__card carte">
+                <p class="carte__desc">Vent</p>
+                <img class="carte__icon" src="src/icons/bx_wind.svg" alt="Image du soleil">
+                <p class="carte__desc">7,6KM</p>
+            </div>
+            <div class="meteo__card carte">
+                <p class="carte__desc">Pression atmosphérique</p>
+                <img class="carte__icon" src="src/icons/wi_barometer.svg" alt="Image du soleil">
+                <p class="carte__desc">1250hpa</p>
+            </div>
+            <div class="meteo__card carte">
+                <p class="carte__desc">Humidité</p>
+                <img class="carte__icon" src="src/icons/akar-icons_water.svg" alt="Image du soleil">
+                <p class="carte__desc">48%</p>
+            </div>
+            <div class="meteo__card carte">
+                <p class="carte__desc">Lever du soleil</p>
+                <div style="display: flex;">
+                    <img  src="src/icons/mi_sunrise.svg" alt="Image du soleil">
+                    <p class="carte__desc carte__desc--var">5H37</p>
+                </div>
+                <p class="carte__desc  carte__desc--var">Coucher du soleil</p>
+                <div style="display: flex;">
+                    <img  src="src/icons/mi_sunset.svg" alt="Image du soleil">
+                    <p class="carte__desc">17H50</p>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
