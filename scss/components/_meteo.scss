@@ -16,6 +16,17 @@
         border-radius: rem(5);
         text-align: center;
     }
+    &__card7 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: rem(5);
+        background-color: $magnolia;
+        color: black;
+        border-radius: rem(5);
+        margin-top: rem(10);
+        margin-bottom: rem(10);
+        height: rem(50);
+    }
 }
 .carte {
     &__desc {
@@ -30,5 +41,17 @@
         color: black;
         height: rem(50);
         width: rem(50);
+    }
+}
+.carte7 {
+    &__desc {
+        color: black;
+        place-self: center;
+    }
+    &__icon {
+        color: black;
+        height: rem(20);
+        width: rem(20);
+        place-self: center;
     }
 }
