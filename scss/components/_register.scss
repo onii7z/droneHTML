@@ -11,3 +11,9 @@
         color: $flame;
     }
 }
+
+@media (min-width: 801px) {
+    .inscription {
+        margin-top: rem(100);
+    }
+}
