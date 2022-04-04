@@ -2,10 +2,13 @@
 	.footer {
         background-color: $violet;
         border-top: rem(1) solid $magnolia;
+        position: fixed;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         height: rem(75);
-        margin-top: auto;
+        margin-top: rem(60);
+        bottom: 0;
 
         &__border {
             display: flex;
@@ -20,6 +23,10 @@
             height: 48px;
             width: 48px;
         }
+    }
+
+    .hidden-footer {
+        height: rem(60);
     }
 }
 
